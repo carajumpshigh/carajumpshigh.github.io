@@ -1,11 +1,19 @@
-title: John Doe # your name (or website title) here
-logo: "/images/logo.png?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+title: <p align="center"> Kunru Lu </p>
+
+logo: "/images/ava.png?raw=true"
+
+description:
+  <p align="center">
+  <a href="https://carajumpshigh.github.io/Resume/">Resume</a> |
+  <a href="https://www.linkedin.com/in/lukunru">LinkedIn</a> |
+  <a href="https://github.com/carajumpshigh">GitHub</a>
+  </p>
+  
+  
+  <p align="justify">
+  Engineers build the engine behind a product and business leaders give it a soul. I want to bridge the gap between engineers and business leaders and guide their decisions through data science. <br> 
+  Currently pursuing an MS in Urban Informatics at NYU CUSP, my goal is to attain mastery over data science to translate consumer insights into data-intensive product solutions. 
   <br><br>
-  Second description 
-  <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  </p>
   
 theme: jekyll-theme-minimal
-google_analytics: UA-000000-0 # your Google Analytics tracking ID here
