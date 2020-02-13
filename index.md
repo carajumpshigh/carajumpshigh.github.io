@@ -97,4 +97,4 @@ Results: Final R_squared: 0.7984 | Final MSE: 0.0024.
  
 ---
 
-<center>© 2020 My (Emmy) Phung. Powered by Jekyll and the Minimal Theme.</center>
+<center>© 2020 Kunru Lu. Powered by Jekyll and the Minimal Theme.</center>
