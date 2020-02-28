@@ -61,8 +61,7 @@ Results: Final R_squared: 0.7984 | Final MSE: 0.0024.
 ---
 [**Kaggle Competition: Google QUEST Q&A Labelling**](https://github.com/JasonZhangzy1757/Kaggle_Google_QUEST_QA_Labeling)
 
-[![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://drive.google.com/file/d/1hiDfVsVQ3QgMWhEJ46JU7HjntgVCsjmj/view?usp=sharing)
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/JasonZhangzy1757/Kaggle_Google_QUEST_QA_Labeling/blob/master/190103_StratifiedKFold_Emmy.ipynb)
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/JasonZhangzy1757/Kaggle_Google_QUEST_QA_Labeling/blob/master/200128_bert-tf2_treat_question_type_spelling_Cara.ipynb)
 
 <div style="text-align: justify"> Google Q&A Labelling is a classification problem. Given pairs of questions and answers, we are asked to classify the question types, answer types, level of helpfulness of the answers, etc. For this project, I conducted comprehensive EDA to understand the datasets and important variables, used Multilabel Stratified KFolds to solve class imbalance issue, and used BERT pretuned models to solve the classification problems.
 </div>
