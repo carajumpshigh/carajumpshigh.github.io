@@ -2,22 +2,28 @@
 ---
 ## Data Science
 
-[**Food Happens in Vegas: How can restaurants improve their Yelp profiles for success?**](https://github.com/Emmyphung/Vegas_foodies)
+[**Pipeline Leakage Diagnoses: how can we response in time and reduce the impact of lifeline pipe network accidents?**](https://github.com/carajumpshigh/Pipeline_Leakage_Diagnosis_based_on_Data_Monitoring_and_Machine_Learning)
 
-[![Models](https://img.shields.io/badge/Jupyter-Models-blue?logo=Jupyter)](https://github.com/Emmyphung/Vegas_foodies/blob/master/models/models_vegas_final.ipynb)
-[![Recommender System](https://img.shields.io/badge/Jupyter-Recommender_System-blue?logo=Jupyter)](https://github.com/Emmyphung/Vegas_foodies/blob/master/models/vegas_recommender_system.ipynb)
+[![Initial Anomaly Detection Model](https://img.shields.io/badge/Jupyter-Models-blue?logo=Jupyter)](https://github.com/carajumpshigh/Pipeline_Leakage_Diagnosis_based_on_Data_Monitoring_and_Machine_Learning/blob/master/main_1.py)
+[![Optimized Model with Geospatial Data](https://img.shields.io/badge/Jupyter-Recommender_System-blue?logo=Jupyter)](https://github.com/carajumpshigh/Pipeline_Leakage_Diagnosis_based_on_Data_Monitoring_and_Machine_Learning/blob/master/main_2.py)
 
-<div> The purpose of this data mining project is to examine how restaurants can improve their Yelp profile to become more “successful” on Yelp in Las Vegas, Nevada. 
+<div> The purpose of this data mining project is to builds a leakage detection model based on data analysis of the multi-source data of the existing gas pipeline network monitoring system(SCADA) of Suzhou, China, and then establishes the risk early warning system of the leakage of each pipeline segment, so as to response in time and reduce the impact of lifeline pipe network accidents.
 <br>
-Our methodology defines “success” as a binary variable through an exploratory analysis of the restaurants’ review counts and ratings on Yelp. Feature variables include categories and attributes that Yelp users can use to select which restaurant to visit. For this project, we ran Decision Tree, Random Forest, and Logistic Regression to explore key features associated with “success” and obtain recommendations for restaurants to improve their Yelp profile.
+For the initial anomaly detection model, we plot the line charts to show the daily trend of the pipeline pressure of the SCADA measuring points, and use Dynamic time warping(DTW) algorithm to measure the similarity of them. Then we do clustering to generate typical modes of the daily trends and find the risky modes with most pipeline lackage happening. Specifically, we generate double-layer clustering to develop the efficiency of this model by reducing % of the total calculation, considering the huge dataset().
+</div>
+<center><img src="images/yelp_project.png"/></center>
 <br>
-Models: Decision Tree, Random Forest, and Logistic Regression.
-
+With geospatial data of the historical leakage accidents, we further improved the efficiency of the model by defining the risk clusters, with the idea that the pipelines are affected by their "neighbors", and there are more important pipelines(e.g. with more connecting pipes) that can be used to represent the mode of their "adjunctive" pipes in the risk cluster. We identify the representative pipelines with Page Rank algorithm and further reduce the runtime of our model by adding another layer of clustering.
+</div>
+<center><img src="images/yelp_project.png"/></center>
+<br>
+Models: Dynamic time warping, Spectral clustering, Page Rank.<br>
+Result:
 </div>
 <center><img src="images/yelp_project.png"/></center>
 
 ---
-[**Effects of US Presidential Elections on the stock market: a close look into the Tech sector**](https://github.com/Emmyphung/FAANG_stockprices)
+[**Analysis of NYC 311 Noise Complaints: a close look into the Tech sector**](https://github.com/Emmyphung/FAANG_stockprices)
 
 [![Time series analysis](https://img.shields.io/badge/Jupyter-Stock_analysis_with_interative_charts-blue?logo=Jupyter)](https://github.com/Emmyphung/FAANG_stockprices/blob/master/EDA_StockAnalysis.html)
 [![Stock prediction](https://img.shields.io/badge/Jupyter-Stock_prediction-blue?logo=Jupyter)](https://github.com/Emmyphung/FAANG_stockprices/blob/master/Times%20series%20analysis_bymonths_%20FAANG.ipynb)
@@ -60,12 +66,15 @@ Results: Final R_squared: 0.7984 | Final MSE: 0.0024.
 
 ---
 [**Kaggle Competition: Google QUEST Q&A Labelling**](https://github.com/JasonZhangzy1757/Kaggle_Google_QUEST_QA_Labeling)
+[![Models](https://img.shields.io/badge/Jupyter-Models-blue?logo=Jupyter)](https://github.com/JasonZhangzy1757/Kaggle_Google_QUEST_QA_Labeling/blob/master/200128_bert-tf2_treat_question_type_spelling_Cara.ipynb)
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/JasonZhangzy1757/Kaggle_Google_QUEST_QA_Labeling)
 
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/JasonZhangzy1757/Kaggle_Google_QUEST_QA_Labeling/blob/master/200128_bert-tf2_treat_question_type_spelling_Cara.ipynb)
 
-<div style="text-align: justify"> Google Q&A Labelling is a classification problem. Given pairs of questions and answers, we are asked to classify the question types, answer types, level of helpfulness of the answers, etc. For this project, I conducted comprehensive EDA to understand the datasets and important variables, used Multilabel Stratified KFolds to solve class imbalance issue, and used BERT pretuned models to solve the classification problems.
+<div style="text-align: justify"> Google Q&A Labelling is a classification problem related to NLP. Given pairs of questions and answers, we are asked to classify the question types, answer types, level of helpfulness of the answers, etc. For this project, I conducted comprehensive EDA to understand the datasets and important variables, split the dataset and trained the model individually to solve class imbalance issue, and used BERT pretuned models to process natural language and Tensorflow to solve the classification problem.
 </div>
 <br>
+Models: BERT pretuned model, deep learning model with Tensorflow.
+</div>
 <center><img src="images/Google_Quest_QA.png"/></center>
 <br>
 
