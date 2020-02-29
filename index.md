@@ -11,14 +11,10 @@
 </div>
 <br>
 For the initial anomaly detection model, we plot the line charts to show the daily trend of the pipeline pressure of the SCADA measuring points, and use Dynamic time warping(DTW) algorithm to measure the similarity of them. Then we do clustering to generate typical modes of the daily trends and find the risky modes with most pipeline lackage happening. Specifically, we generate double-layer clustering to develop the efficiency of this model by reducing % of the total calculation, considering the huge dataset().
-</div>
 <center><img src="images/yelp_project.png"/></center>
-</div>
 <br>
 With geospatial data of the historical leakage accidents, we further improved the efficiency of the model by defining the risk clusters, with the idea that the pipelines are affected by their "neighbors", and there are more important pipelines(e.g. with more connecting pipes) that can be used to represent the mode of their "adjunctive" pipes in the risk cluster. We identify the representative pipelines with Page Rank algorithm and further reduce the runtime of our model by adding another layer of clustering.
-</div>
 <center><img src="images/yelp_project.png"/></center>
-</div>
 <br>
 Models: Dynamic time warping, Spectral clustering, Page Rank.<br>
 Result:
