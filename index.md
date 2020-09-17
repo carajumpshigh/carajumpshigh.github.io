@@ -4,7 +4,7 @@
 
 [**Pipeline Leakage Diagnoses: how can we response in time and reduce the impact of lifeline pipe network accidents?**](https://github.com/carajumpshigh/Pipeline_Leakage_Diagnosis_based_on_Data_Monitoring_and_Machine_Learning)
 
-[![Initial Anomaly Detection Model](https://img.shields.io/badge/Jupyter-Models-blue?logo=Jupyter)](https://github.com/carajumpshigh/Pipeline_Leakage_Diagnosis_based_on_Data_Monitoring_and_Machine_Learning/blob/master/main_1.py)
+[![Initial Anomaly Detection Model](https://img.shields.io/badge/Jupyter-Initial Anomaly Detection Model-blue?logo=Jupyter)](https://github.com/carajumpshigh/Pipeline_Leakage_Diagnosis_based_on_Data_Monitoring_and_Machine_Learning/blob/master/main_1.py)
 [![Optimized Model with Geospatial Data](https://img.shields.io/badge/Jupyter-Recommender_System-blue?logo=Jupyter)](https://github.com/carajumpshigh/Pipeline_Leakage_Diagnosis_based_on_Data_Monitoring_and_Machine_Learning/blob/master/main_2.py)
 
 <div> The purpose of this data mining project is to builds a leakage detection model based on data analysis of the multi-source data of the existing gas pipeline network monitoring system(SCADA) of Suzhou, China, and then establishes the risk early warning system of the leakage of each pipeline segment, so as to response in time and reduce the impact of lifeline pipe network accidents.
