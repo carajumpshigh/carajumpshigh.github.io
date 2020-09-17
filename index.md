@@ -2,6 +2,21 @@
 ---
 ## Data Science
 
+[**Applying Multi-Agent RL to SLAM with Graph Pose for Sampled-Data MPC and CPN of Autonomous Drone Swarms**](https://yuejinyz.github.io/2020CapstoneProject.github.io/index.html)
+
+[![Paper](https://img.shields.io/badge/PDF-Open_Research_Paper-blue?logo=adobe-acrobat-reader&logoColor=white)](https://github.com/carajumpshigh/kunrulu.github.io/blob/master/Capstone___Final_Report.pdf)
+
+<div> This project analyzes NYC 311 noise complaints and sees how the complaints of differet kinds of noise distribute geographically and change by the time of day/year. After feature engineering with PCA, regression is applied to study the correlation between noise complaints and demographic, economic and socio attributes in different neighborhoods.
+</div>
+<br>
+Some interesting findings: 1) Noise complaints are reported more frequently in summer; 2) While in most part of New York, the main reasons of noise complaints is loud music and parties, people in Manhattan, Brooklyn Height and Red Hook tend to report more about construction noise, and people in Upper Bronx are mostly annoyed by ice cream trucks; 3) Education and Origin factors take the lead in related factors, followed by Salary and Race.<br>
+</div>
+<center><img src="images/Workflow_NYCNoise_model.jpg"/></center> 
+<br>
+Models: Time series analysis, Spatial joint, PCA, Regression
+<br>
+  
+---
 [**Pipeline Leakage Diagnoses: how can we response in time and reduce the impact of lifeline pipe network accidents?**](https://github.com/carajumpshigh/Pipeline_Leakage_Diagnosis_based_on_Data_Monitoring_and_Machine_Learning)
 
 [![Initial Anomaly Detection Model](https://img.shields.io/badge/Python-%20Initial%20Model-blue?logo=Python)](https://github.com/carajumpshigh/Pipeline_Leakage_Diagnosis_based_on_Data_Monitoring_and_Machine_Learning/blob/master/main_1.py)
