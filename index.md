@@ -12,7 +12,6 @@
 <br>
 For the initial anomaly detection model, I plot the line charts to show the daily trend of the pipeline pressure of the SCADA measuring points, and use Dynamic time warping(DTW) algorithm to measure the similarity of them. Then I do clustering to generate typical modes of the daily trends and find the risky modes with most pipeline lackage happening. Specifically, I generate double-layer clustering to develop the efficiency of this model by reducing 98% of the total calculation, considering the huge dataset(over 16,000 records).
 <center><img src="images/Leakage Diagnosis Model.png"/></center>
-<br>
 With geospatial data of the historical leakage accidents, I further improved the efficiency of the model by defining the risk clusters, with the idea that the pipelines are affected by their "neighbors", and there are more important pipelines(e.g. with more connecting pipes) that can be used to represent the mode of their "adjunctive" pipes in the risk cluster. I identify the representative pipelines with Page Rank algorithm and further reduce the runtime of our model by adding another layer of clustering.
 <center><img src="images/Leakage Diagnosis Model with Spatial Info.png"/></center>
 <br>
@@ -30,11 +29,10 @@ Models: Anomaly detection, DTW, Spectral clustering, Page Rank
 </div>
 <br>
 Some interesting findings: 1) Noise complaints are reported more frequently in summer; 2) While in most part of New York, the main reasons of noise complaints is loud music and parties, people in Manhattan, Brooklyn Height and Red Hook tend to report more about construction noise, and people in Upper Bronx are mostly annoyed by ice cream trucks; 3) Education and Origin factors take the lead in related factors, followed by Salary and Race.<br>
+<center><img src="images/Workflow_NYCNoise_model.jpg"/></center> 
 <br>
 Models: Time series analysis, Spatial joint, PCA, Regression
-</div>
 <br>
-<center><img src="images/Workflow_NYCNoise_model.jpg"/></center> 
   
 ---
 [**Product Differentiation in the Automobiles Market: An Empirical Analysis**](https://github.com/Emmyphung/car_models/blob/master/README.md)
