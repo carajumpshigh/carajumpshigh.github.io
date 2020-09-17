@@ -23,18 +23,19 @@ Models: Anomaly detection, DTW, Spectral clustering, Page Rank
 <br>
 
 ---
-[**Analysis of NYC 311 Noise Complaints: a close look into the Tech sector**](https://github.com/Emmyphung/FAANG_stockprices)
+[**Analysis of NYC 311 Noise Complaints: Fun Facts about Noise in NYC**](https://github.com/carajumpshigh/Analysis_of_NYC_Noise_Complaints)
 
-[![Time series analysis](https://img.shields.io/badge/Jupyter-Stock_analysis_with_interative_charts-blue?logo=Jupyter)](https://github.com/Emmyphung/FAANG_stockprices/blob/master/EDA_StockAnalysis.html)
-[![Stock prediction](https://img.shields.io/badge/Jupyter-Stock_prediction-blue?logo=Jupyter)](https://github.com/Emmyphung/FAANG_stockprices/blob/master/Times%20series%20analysis_bymonths_%20FAANG.ipynb)
+[![Time series analysis](https://img.shields.io/badge/Jupyter-%20Time%20Series%20Analysis-blue?logo=Jupyter)](https://github.com/carajumpshigh/Analysis_of_NYC_Noise_Complaints/blob/master/Noise_Complaints_Time_Analysis.ipynb)
+[![Spatial analysis](https://img.shields.io/badge/Jupyter-%20Spatials%20Analysis-blue?logo=Jupyter)](https://github.com/carajumpshigh/Analysis_of_NYC_Noise_Complaints/blob/master/Noise%20Category%20Analysis.ipynb)
+[![Results](https://img.shields.io/badge/Images-%20Results-blue?logo=Github)](https://github.com/carajumpshigh/Analysis_of_NYC_Noise_Complaints/tree/master/result_img)
 
-<div> This project analyzes stock prices of big tech companies, Facebook - Apple - Amazon - Netflix - Google (FAANG) and sees how they progressed throughout the two recent presidential election (2012 - Barack Obama and 2017 - Donald Trump).
+<div> This project analyzes NYC 311 noise complaints and sees how the complaints of differet kinds of noise distribute geographically and change by the time of day/year. After feature engineering with PCA, regression is applied to study the correlation between noise complaints and demographic, economic and socio attributes in different neighborhoods.
 <br>
-Some interesting findings: 1) Overall, stocks within the FAANG companies are closely correlated; 2) Facebook and Google stocks were the most volatile in 2018, the year when Facebook had its infamous scandal with Cambridge Analytica; 3) Several tech stocks rocketed after Trump's elecion in 2017.<br>
+Some interesting findings: 1) Noise complaints are reported more frequently in summer; 2) While in most part of New York, the main reasons of noise complaints is loud music and parties, people in Manhattan, Brooklyn Height and Red Hook tend to report more about construction noise, and people in Upper Bronx are mostly annoyed by ice cream trucks; 3) Education and Origin factors take the lead in related factors, followed by Salary and Race.<br>
 <br>
-Models: Auto-regressive (AR), Moving average (MA), ARIMA (Autoregression integrated with moving-average) model.
+Models: 
 </div>
-<center><img src="images/FB_stock.png"/></center> 
+<center><img src="images/Workflow_NYCNoise_model.jpg"/></center> 
   
 ---
 [**Product Differentiation in the Automobiles Market: An Empirical Analysis**](https://github.com/Emmyphung/car_models/blob/master/README.md)
