@@ -19,7 +19,8 @@ Most of the compute load comes from calculating the DTW distances between each o
 With geospatial data of the historical leakage accidents, I further improved the efficiency of the model by defining the risk clusters, with the idea that the pipelines are affected by their "neighbors", and there are more important pipelines(e.g. with more connecting pipes) that can be used to represent the mode of their "adjunctive" pipes in the risk cluster. I identify the representative pipelines with Page Rank algorithm and further reduce the runtime of our model by adding another layer of clustering.
 <center><img src="images/Leakage Diagnosis Model with Spatial Info.png"/></center>
 <br>
-*Models: Anomaly detection, DTW, Spectral clustering, Page Rank*<br>
+*Models: Anomaly detection, DTW, Spectral clustering, Page Rank*
+<br>
 
 ---
 [**Analysis of NYC 311 Noise Complaints: a close look into the Tech sector**](https://github.com/Emmyphung/FAANG_stockprices)
