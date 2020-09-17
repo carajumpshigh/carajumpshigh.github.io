@@ -77,11 +77,9 @@ Results: Final R_squared: 0.7984 | Final MSE: 0.0024.
 
 <div style="text-align: justify"> Google Q&A Labelling is a classification problem related to NLP. Given pairs of questions and answers, we are asked to classify the question types, answer types, level of helpfulness of the answers, etc. For this project, I conducted comprehensive EDA to understand the datasets and important variables, split the dataset and trained the model individually to solve class imbalance issue, and used BERT pretuned models to process natural language and Tensorflow to solve the classification problem.
 </div>
-<br>
-Models: BERT pretuned model, deep learning model with Tensorflow
-</div>
 <center><img src="images/Google_Quest_QA.png"/></center>
 <br>
+Models: BERT pretuned model, deep learning model with Tensorflow
 
 ---
 ## Math Modelling
