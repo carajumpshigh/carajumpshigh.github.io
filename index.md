@@ -20,6 +20,9 @@ Models: Anomaly detection, DTW, Spectral clustering, Page Rank
 <br>
 
 ---
+## Urban Analysis
+
+
 [**Analysis of NYC 311 Noise Complaints: Fun Facts about Noise in NYC**](https://github.com/carajumpshigh/Analysis_of_NYC_Noise_Complaints)
 
 [![Time series analysis](https://img.shields.io/badge/Jupyter-%20Time%20Series%20Analysis-blue?logo=Jupyter)](https://github.com/carajumpshigh/Analysis_of_NYC_Noise_Complaints/blob/master/Noise_Complaints_Time_Analysis.ipynb)
