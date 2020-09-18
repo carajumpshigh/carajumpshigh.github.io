@@ -55,13 +55,11 @@ Models: Time series analysis, Spatial joint, PCA, Regression
 <br>
   
 ---
-[**Product Differentiation in the Automobiles Market: An Empirical Analysis**](https://github.com/Emmyphung/car_models/blob/master/README.md)
+[**Analysis of Airbnb house pricing in NYC & LA:**](https://github.com/carajumpshigh/Analysis_of_Airbnb_house_pricing_in_NYC_and_LA)
 
-[![EDA](https://img.shields.io/badge/Jupyter-Stock_analysis_with_interative_charts-blue?logo=Jupyter)](https://github.com/Emmyphung/car_models/blob/master/car_EDA.ipynb)
-[![Models](https://img.shields.io/badge/Jupyter-Stock_prediction-blue?logo=Jupyter)](https://github.com/Emmyphung/car_models/blob/master/car_modelling.ipynb)
+[![Github](https://img.shields.io/badge/Github-View_On_Github-blue?logo=Github)](https://github.com/carajumpshigh/Analysis_of_Airbnb_house_pricing_in_NYC_and_LA)
 
-<div> This research project examined the quality vs. fuel-efficiency trade-offs between low-end and high-end car models. I first consolidated a cross-sectional dataset of 10,000+ observations (2005–2014) and 22 variables from 3 sources. I then developed a Double-Log Regression model to estimate the average miles-per-gallon of an automobile model based on its design features and real market price. 
-For feature engineering, I conducted Pearson’s correlation test to detect and reduce multi-collinearity problem; used year-fixed effects to avoid serial correlation. 
+<div> This research project
 <br>
 <br>
 Models: Linear Regression, Lin-Log and Double-Log models.<br>
@@ -73,17 +71,6 @@ Results: Final R_squared: 0.7984 | Final MSE: 0.0024.
 ---
 ## Natural Language Processing
 
-[**Sentiment Analysis on Movie Reviews: Logistic Regression vs. Naive Bayes Bernoulli**](https://github.com/Emmyphung/Sentiment-Analysis)
-
-[![Models](https://img.shields.io/badge/Jupyter-Models-blue?logo=Jupyter)](https://github.com/Emmyphung/Sentiment-Analysis/blob/master/Sentiment%20Analysis%20-%20NLP%20and%20Logistic%20Regression.ipynb)
-
-<div> This notebook will compare the performance of two NLP techniques, Count Vectorizor and TF-IDF Vectorizer, and two classification models, Logistic Regression and Bernoulli Naive Bayes in sentiment analysis. I'll give detailed explanation on which model performs better and why.
-</div>
-<center><img src="images/Sentiment_analysis.png"/></center> 
-<center><img src="images/Sentiment_analysis_math3.png"/></center> 
-<br>
-
----
 [**Kaggle Competition: Google QUEST Q&A Labelling**](https://github.com/JasonZhangzy1757/Kaggle_Google_QUEST_QA_Labeling)
 
 [![Models](https://img.shields.io/badge/Jupyter-Models-blue?logo=Jupyter)](https://github.com/JasonZhangzy1757/Kaggle_Google_QUEST_QA_Labeling/blob/master/200128_bert-tf2_treat_question_type_spelling_Cara.ipynb)
@@ -96,31 +83,6 @@ Results: Final R_squared: 0.7984 | Final MSE: 0.0024.
 <br>
 Models: BERT pretuned model, deep learning model with Tensorflow
 
----
-## Math Modelling
-
-[**Projected growth of Neurendocrine cells using Matlab**](https://github.com/Emmyphung/Neurendocrine-cells)
-
-[![Open Research Paper](https://img.shields.io/badge/PDF-Open_Research_Paper-blue?logo=adobe-acrobat-reader&logoColor=white)](https://github.com/Emmyphung/Neurendocrine-cells/blob/master/Project%20Write-up_My%20Phung.pdf)
-
-<div style="text-align: justify">The project aims at tracking the three phase transformation of neuroendocrine cells specific to the human colon. A stem cell transforms into a progenitor cell and finally a mature cell through symmetric and asymmetric cell division. Symmetric cell division, also known as self-renewal, occurs when a stem cell divides symmetrically into two identical stem cells. Asymmetric cell division characterizes the maturation process when a stem cell divides into a stem cell and a progenitor cell, or a progenitor cell divides into a progenitor cell and a mature cell. In each phase, cells also experience apoptosis. meaning cell death. With an aim to capture this phenomenon, I want to build a model that track the number of cells in each phase, stem cells, progenitor cells and mature cells.
-</div>
-<center><img src="images/Neucell.png"/></center>
-
----
-## Community Projects
-
-[**Data Science in Brief (@DSinbrief Facebook Page & Group)**](https://www.facebook.com/DSinbrief/)
-
-[![Check out my page](https://img.shields.io/badge/Facebook-View_My_Page-blue?logo=facebook)](https://www.facebook.com/DSinbrief/)
-
-<div style="text-align: justify"> Data Science in Brief (@DSinbrief) is an organization, a learning community that aims at 1) sharing knowledge to inspire young learners and to keep experienced scientists updated with state-of-the-art practices & applications; and 2) connecting young Data Science enthusiasts – learners – practitioners with leading experts in the field for learning and career opportunities
-<br>
-• Reached 11,000 readers within the 1st month (organically)<br>
-• Organized Data Science in Brief: Hands-on Experience & Career Navigation (VN, 2019), a full-day conference that welcomed 146 attendees and 10 guest speakers from giant tech companies (Google, Hitachi, FPT Worldwide) and top universities (Johns Hopkins, NYU, etc.)
-</div>
-<center><img src="images/DSinbrief_event.png"/></center>
- 
 ---
 
 <center>© 2020 Kunru Lu. Powered by Jekyll and the Minimal Theme.</center>
